@@ -102,7 +102,7 @@ def average_course_grade_by_lecturer(lecturers, course):
     result = total_grades / total_count
     return result
 
-#Создаем по два экземпляря студента, лектора и проверяющего и предварительно наполняем
+#Создаем по два экземпляра студента, лектора и проверяющего и предварительно наполняем
 first_student = Student('Harry', 'Potter', 'Male')
 first_student.courses_in_progress += ['Defence against the dark arts']
 first_student.courses_in_progress += ['Potion-making']
@@ -117,7 +117,7 @@ second_student.finished_courses += ['Herbology']
 second_student.finished_courses += ['History of Magic']
 second_student.grades['Herbology'] = [10, 10, 9, 8]
  
-first_lecturer = Lecturer('Sverus', 'Snape')
+first_lecturer = Lecturer('Severus', 'Snape')
 first_lecturer.courses_attached += ['Defence against the dark arts']
 first_lecturer.courses_attached += ['Flying']
 first_lecturer.courses_attached += ['Transfiguration']
