@@ -79,6 +79,7 @@ class Reviewer(Mentor):
         result = f'Name: {self.name}\nSurname: {self.surname}\n'
         return result
 
+#Реализуем две функции из четвертого задания
 def average_course_grade_by_student(students, course):
     total_grades = 0
     total_count = 0
