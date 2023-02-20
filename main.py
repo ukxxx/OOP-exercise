@@ -101,7 +101,7 @@ def average_course_grade_by_lecturer(lecturers, course):
     result = total_grades / total_count
     return result
 
-#Создаем по два экземпляря студента, лектора и проверяющего
+#Создаем по два экземпляря студента, лектора и проверяющего и предварительно наполняем
 first_student = Student('Harry', 'Potter', 'Male')
 first_student.courses_in_progress += ['Defence against the dark arts']
 first_student.courses_in_progress += ['Potion-making']
